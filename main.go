@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"monitor/dns"
+	"gomonitor/dns"
 
 	"github.com/gorilla/mux"
 )

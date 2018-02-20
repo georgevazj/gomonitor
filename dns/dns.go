@@ -27,8 +27,8 @@ func GetDNS(w http.ResponseWriter, r *http.Request) {
 	var url string
 
 	//Check environment variable
-	if os.Getenv("DNSURL") != "" {
-		url = os.Getenv("DNSURL")
+	if os.Getenv("DNS_URL") != "" {
+		url = os.Getenv("DNS_URL")
 	} else {
 		url = DNSURL
 	}

@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"gomonitor/ansible"
-	"gomonitor/dns"
-	"gomonitor/iaas"
+	"github.com/georgevazj/gomonitor/ansible"
+	"github.com/georgevazj/gomonitor/dns"
+	"github.com/georgevazj/gomonitor/iaas"
 	"github.com/gorilla/mux"
 )
 
